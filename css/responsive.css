@@ -1,0 +1,124 @@
+@media screen and (min-width: 0px) {
+  body {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .inside {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .inside #maincontent {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #map-container {
+    width: 100%;
+    height: calc(100%/2);
+  }
+  #restaurants-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
+    white-space: nowrap;
+  }
+  #restaurants-list li {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    width: 100%;
+    padding: 0.25em;
+  }
+  .inside #map-container {
+    width: 100%;
+    height: 80vw;
+    order: 0;
+  }
+  .restaurantWrapper {
+    width: 100%;
+    order: 1;
+  }
+  .inside #restaurant-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .inside #reviews-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .inside #footer {
+    position: relative;
+    width: 100%;
+    order: 99;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  body {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .inside {
+    width: 850px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .inside #maincontent {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #map-container {
+    width: 100%;
+  }
+  #restaurants-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
+    white-space: nowrap;
+  }
+  #restaurants-list li {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    width: 45%;
+    padding: 0.25em;
+  }
+  .inside #map-container {
+    width: 50%;
+    order: 0;
+  }
+  .restaurantWrapper {
+    width: 50%;
+    order: -1;
+  }
+  .inside #restaurant-container {
+    width: 100%;
+  }
+  .inside #reviews-container {
+    width: 100%;
+  }
+}
